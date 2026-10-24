@@ -1,0 +1,6 @@
+# Frozen manifests include hashes of text files; preserve original bytes on every OS.
+* -text
+*.mp4 binary
+*.png binary
+*.wav binary
+*.ttf binary

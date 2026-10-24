@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-10-23",
+  "provider": "VoAI 絕好聲創",
+  "source_url": "https://app.voai.ai/actors",
+  "evidence": "官方公開角色頁；以下五位均有台標章、年齡及兒童角色設定。年齡為官方角色設定，不是配音者身分查驗。",
+  "verification_level": "public-catalog-confirmed; synthesis-not-connected; subjective-accent-not-auditioned",
+  "voices": [
+    {"name":"軒軒","gender":"男","age":8,"role":"小學生","category":"真實聲線","taiwan_badge":true,"styles":["預設"],"public_models":["Mosa","Sota+","Neo"]},
+    {"name":"辰辰","gender":"男","age":7,"role":"小學生","category":"演繹聲線","taiwan_badge":true,"styles":["預設"],"public_models":["Mosa","Sota+","Neo","Classic"]},
+    {"name":"阿皮","gender":"男","age":5,"role":"幼兒園","category":"真實聲線","taiwan_badge":true,"styles":["預設"],"public_models":["Mosa","Sota+","Neo"]},
+    {"name":"子睿","gender":"男","age":5,"role":"幼兒園","category":"演繹聲線","taiwan_badge":true,"styles":["預設"],"public_models":["Mosa","Sota+","Classic"]},
+    {"name":"芊芊","gender":"女","age":11,"role":"小學生","category":"真實聲線","taiwan_badge":true,"styles":["預設"],"public_models":["Mosa","Sota+","Neo"]}
+  ],
+  "user_choice": {"name":"軒軒","choice_confirmed":true,"synthesized_audio_accepted":false,"access_status":"保留為未來備選；使用者後續要求免註冊、免申請API，接受普通話並要求更多選擇，本階段不接通VoAI"},
+  "runtime_rule": "使用前以持有金鑰的 GET /TTS/GetSpeaker 查詢實際可用模型／風格；不要直接以研究快照代替帳戶可用清單。公開頁列出的 Mosa 尚未在本次查閱的 ConnectAPI 文件列為可呼叫版本。"
+}

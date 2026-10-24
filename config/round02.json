@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "character": "阿忠",
+  "script": "大家好！我是阿忠，今天要提醒大家：走廊慢慢走，上下樓梯靠右行。看見同學有困難，記得主動幫忙。一起讓校園更安全、更友善！",
+  "canvas": {"width": 1920, "height": 1080, "status": "temporary-test-layout"},
+  "placement": {"anchor": "bottom-left", "visible_height_ratio": 0.45, "left": 96, "bottom": 54},
+  "motion_modes": [1, 2, 3],
+  "voice": "zh-CN-YunxiaNeural",
+  "voice_classification": "童趣／男童感男聲；官方 Male, Cartoon, Cute，沒有公開年齡",
+  "voice_locale": "zh-CN",
+  "voice_user_accepted": false,
+  "timeline_status": "provisional-test-only",
+  "motion_profile": {
+    "id": "round02-large-slow",
+    "left_hand_means": "character-left-screen-right",
+    "first_raise_sec": 0.35,
+    "interval_sec": 3.8,
+    "rise_sec": 1.05,
+    "hold_sec": 0.7,
+    "lower_sec": 1.05,
+    "modes": {
+      "1": {"left_arm_deg": -95, "other_arm_deg": 25, "head_deg": 0, "leg_deg": 0, "leg_lift_source_px": 0},
+      "2": {"left_arm_deg": -110, "other_arm_deg": 40, "head_deg": 4, "leg_deg": 6, "leg_lift_source_px": 18},
+      "3": {"left_arm_deg": -120, "other_arm_deg": 55, "head_deg": 8, "leg_deg": 12, "leg_lift_source_px": 40}
+    }
+  },
+  "rig": {
+    "source_width": 1122, "source_height": 1402,
+    "visible_bbox": [190, 45, 899, 1357],
+    "mouth_center": [578, 557],
+    "scope": "Calibrated round01 boy reused; enlarged gestures are round02 overrides."
+  }
+}

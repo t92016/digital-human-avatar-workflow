@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "character": "阿忠",
+  "script": "大家好！我是阿忠，今天要提醒大家：走廊慢慢走，上下樓梯靠右行。看見同學有困難，記得主動幫忙。一起讓校園更安全、更友善！",
+  "canvas": {"width": 1920, "height": 1080, "status": "temporary-test-layout"},
+  "placement": {"anchor": "bottom-left", "visible_height_ratio": 0.45, "left": 96, "bottom": 54},
+  "motion_modes": [1, 2, 3],
+  "voice": "zh-TW-YunJheNeural",
+  "voice_user_accepted": false,
+  "timeline_status": "provisional-test-only",
+  "rig": {
+    "source_width": 1122, "source_height": 1402,
+    "visible_bbox": [190, 45, 899, 1357],
+    "mouth_center": [578, 557],
+    "scope": "This rig is calibrated only for the round01 boy, not arbitrary photos."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "base_config": "config/round09.json",
+  "round": "round10",
+  "purpose": "第九輪動作驗收後，頭身接合與連續彎肘／屈膝整合審核",
+  "duration_sec": 4.4,
+  "fps": 25,
+  "head_scale": 1.03,
+  "head_pin": [512, 540],
+  "mesh": {"source_row_step_px": 5, "columns": 6, "canvas_width": 1400, "canvas_height": 1680, "origin": [180, 80]},
+  "joints": {
+    "arm_left": {"joint_source_y": 260, "bend_halfwidth_px": 58},
+    "arm_right": {"joint_source_y": 260, "bend_halfwidth_px": 58},
+    "leg_left": {"joint_source_y": 748, "bend_halfwidth_px": 76},
+    "leg_right": {"joint_source_y": 748, "bend_halfwidth_px": 76}
+  },
+  "timing": {"start": 0.35, "rise": 1.05, "hold": 0.7, "lower": 1.25, "other_delay": 0.18, "elbow_delay": 0.10, "knee_delay": 0.14},
+  "modes": {
+    "1": {"label": "① 手部・加入彎肘", "right_upper_deg": -66, "right_elbow_deg": -42, "left_upper_deg": 19, "left_elbow_deg": 23, "left_hip_deg": 0, "left_knee_deg": 0, "right_hip_deg": 0, "right_knee_deg": 0, "head_deg": 0},
+    "2": {"label": "② 自然・彎肘與屈膝", "right_upper_deg": -70, "right_elbow_deg": -48, "left_upper_deg": 23, "left_elbow_deg": 27, "left_hip_deg": 11, "left_knee_deg": -27, "right_hip_deg": -3, "right_knee_deg": 8, "head_deg": 1.6},
+    "3": {"label": "③ 活潑・彎肘與屈膝", "right_upper_deg": -75, "right_elbow_deg": -58, "left_upper_deg": 28, "left_elbow_deg": 34, "left_hip_deg": 16, "left_knee_deg": -38, "right_hip_deg": -5, "right_knee_deg": 12, "head_deg": 2.6}
+  },
+  "user_accepted": false,
+  "scope": "同一人物與已接受4.4秒家豪音訊；保留服裝與原嘴／眨眼，連續網格僅校準此角色，未驗證長片或張掌。"
+}

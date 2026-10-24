@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_video": "outputs/round07/head_stabilized.mp4",
+  "source_video_sha256": "de3f5881ac890d10a7fab4feb75ef7675ee2677a777a33d0d20658179b243b9d",
+  "source_audio": "outputs/round06/sadtalker-head-v2/jiahao-sample.wav",
+  "source_audio_sha256": "1e587200afac32a513adef133590a7d0be576d19e21370b51144f80eed2582b4",
+  "reference_frame": 42,
+  "reference_image": "work/round08/baseline_f042.png",
+  "half_reference": "work/round08/eyes_half_generated_v1.png",
+  "closed_reference": "work/round08/eyes_closed_generated_v1.png",
+  "size": [1254, 1254],
+  "fps": 25,
+  "frames": 110,
+  "blink_start_frame": 43,
+  "closure": [0.0, 0.22, 0.64, 1.0, 1.0, 0.82, 0.48, 0.18, 0.0],
+  "eyes": [
+    {
+      "name": "screen_left",
+      "x": [411, 425, 440, 460, 480, 500, 515, 530, 545, 560, 577],
+      "upper_open": [681, 668, 655, 641, 630, 626, 626, 632, 646, 663, 680],
+      "upper_half": [681, 676, 670, 661, 655, 652, 652, 653, 657, 666, 680],
+      "closed": [681, 679, 676, 675, 674, 672, 670, 667, 667, 668, 679],
+      "lower_open": [685, 688, 691, 693, 695, 695, 694, 693, 690, 688, 684],
+      "tracking_roi": [389, 571, 605, 738],
+      "tracking_exclusion": [407, 610, 581, 708]
+    },
+    {
+      "name": "screen_right",
+      "x": [695, 708, 720, 735, 750, 770, 790, 810, 830, 850, 863],
+      "upper_open": [666, 658, 645, 626, 614, 609, 611, 617, 630, 646, 658],
+      "upper_half": [666, 663, 655, 647, 639, 637, 637, 638, 643, 650, 658],
+      "closed": [666, 665, 661, 658, 657, 657, 656, 654, 652, 651, 658],
+      "lower_open": [670, 674, 677, 680, 681, 681, 680, 677, 674, 668, 662],
+      "tracking_roi": [670, 547, 892, 722],
+      "tracking_exclusion": [691, 592, 870, 696]
+    }
+  ],
+  "notes": "Calibration for this Ade sample only; coordinates are image pixels. Generated eyelid skin is geometrically remapped; live iris is occluded, never squeezed or crossfaded. No body or subtitle integration."
+}

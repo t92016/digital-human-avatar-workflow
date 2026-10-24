@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "decision_date": "2026-10-24",
+  "primary_for_new_work": "local-tts",
+  "integration_status": "planned-not-installed-or-runtime-integrated",
+  "fallback_provider": "TTSMaker",
+  "require_signup_or_api_key": false,
+  "accent_priority": ["Taiwanese Mandarin verified by listening", "Mainland Mandarin if Taiwan option unavailable"],
+  "voice_groups": ["man", "woman", "boy", "girl"],
+  "voice_selection": "Show model capabilities and trial voices first; no automatic voice substitution. Group names are requirements, not available voice IDs.",
+  "local_candidates": [
+    {
+      "id": "breezyvoice",
+      "model": "MediaTek-Research/BreezyVoice",
+      "role": "Taiwanese Mandarin first evaluation",
+      "source": "https://github.com/mtkresearch/BreezyVoice",
+      "needs_reference_audio": true,
+      "cpu_documented_by_upstream": true,
+      "installed": false,
+      "runtime_verified": false,
+      "taiwan_child_voices_verified": false,
+      "environment": "new isolated Python 3.10; never modify SadTalker venv"
+    },
+    {
+      "id": "qwen3-tts",
+      "models": ["Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice", "Qwen/Qwen3-TTS-12Hz-0.6B-Base", "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"],
+      "role": "adult Mandarin presets; custom childlike voice design or authorized reference clone",
+      "source": "https://github.com/QwenLM/Qwen3-TTS",
+      "taiwan_presets_verified": false,
+      "taiwan_child_voices_verified": false,
+      "installed": false,
+      "runtime_verified": false,
+      "environment": "new isolated Python 3.12; CPU float32 compatibility and memory must be tested"
+    }
+  ],
+  "reference_audio_rule": "Use user-owned, authorized, or appropriately licensed designed voices. Do not automatically clone the TTSMaker voices.",
+  "existing_accepted_audio": "Keep Jiahao1602 and Mmeng1202 files and existing examples unchanged; reuse Jiahao short audio for the next blink test.",
+  "long_form_status": "chunked local TTS and 2-to-3-minute end-to-end lip sync not implemented or verified",
+  "ttsmaker_limits_snapshot": {
+    "checked_date": "2026-10-24",
+    "source": "https://pro.ttsmaker.com/pricing",
+    "free_weekly_characters": 20000,
+    "free_max_characters_per_conversion_on_pricing_page": 500,
+    "fire_marked_voices_may_be_exempt_from_weekly_quota": true,
+    "selected_voice_exemptions_verified": false,
+    "independent_universal_audio_duration_limit_verified": false,
+    "conversion_history_minutes_is_not_audio_duration": 30
+  }
+}

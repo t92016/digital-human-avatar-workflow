@@ -1,0 +1,17 @@
+{
+  "name": "talking-character-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable hardware-aware talking character prototype",
+  "scripts": {
+    "check:video": "hyperframes check samples/round01",
+    "preview:video": "hyperframes preview samples/round01 --background",
+    "build:sample": "node scripts/build-sample.cjs",
+    "test": "node --test --test-isolation=none tests/*.test.cjs"
+  },
+  "dependencies": {
+    "gsap": "3.14.2",
+    "hyperframes": "0.8.191",
+    "playwright": "1.62.1"
+  }
+}

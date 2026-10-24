@@ -1,0 +1,14 @@
+{
+  "engine":"faster-whisper",
+  "version":"1.2.1",
+  "model":"Systran/faster-whisper-tiny",
+  "revision":"d90ca5fe260221311c53c58e660288d3deb8d356",
+  "weights_bytes":75538270,
+  "source":"https://huggingface.co/Systran/faster-whisper-tiny",
+  "device":"cpu",
+  "compute_type":"int8",
+  "input":"16kHz mono 16-bit PCM WAV",
+  "purpose":"外部配音的近似詞界；台詞以定稿為準，ASR不一致時停止並校稿",
+  "upload_audio":false,
+  "account_required":false
+}

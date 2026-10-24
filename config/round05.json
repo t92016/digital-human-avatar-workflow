@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "character": "阿德",
+  "script": "同學們，不嘲笑、不排擠，也不跟著起鬨。看見同學被欺負，請找老師幫忙。互相尊重，讓校園更友善！",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "status": "temporary-new-head-test"
+  },
+  "placement": {
+    "anchor": "bottom-left",
+    "visible_height_ratio": 0.45,
+    "left": 96,
+    "bottom": 54
+  },
+  "motion_modes": [
+    1,
+    2,
+    3
+  ],
+  "voice": "TTSMaker:1602",
+  "voice_classification": "官方繁體台灣通用男生 Taiwan Male；未公開精確年齡",
+  "voice_locale": "zh-TW-provider-label",
+  "voice_user_accepted": true,
+  "timeline_status": "voice-accepted-video-review",
+  "motion_profile": {
+    "id": "round03-continuous-shoulder-large-slow",
+    "left_hand_means": "character-left-screen-right",
+    "first_raise_sec": 0.35,
+    "interval_sec": 3.8,
+    "rise_sec": 1.05,
+    "hold_sec": 0.7,
+    "lower_sec": 1.05,
+    "modes": {
+      "1": {
+        "left_arm_deg": -95,
+        "other_arm_deg": 25,
+        "head_deg": 0,
+        "leg_deg": 0,
+        "leg_lift_source_px": 0
+      },
+      "2": {
+        "left_arm_deg": -110,
+        "other_arm_deg": 40,
+        "head_deg": 4,
+        "leg_deg": 6,
+        "leg_lift_source_px": 18
+      },
+      "3": {
+        "left_arm_deg": -120,
+        "other_arm_deg": 55,
+        "head_deg": 8,
+        "leg_deg": 12,
+        "leg_lift_source_px": 40
+      }
+    }
+  },
+  "rig": {
+    "version": "overlapping-shoulder-v1",
+    "atlas": "arm_torso_atlas_v1.png",
+    "source_width": 1122,
+    "source_height": 1402,
+    "visible_bbox": [
+      250,
+      74,
+      890,
+      1197
+    ],
+    "mouth_center": [
+      579,
+      584
+    ],
+    "shoulders": {
+      "left": [
+        430,
+        747
+      ],
+      "right": [
+        727,
+        747
+      ]
+    },
+    "scope": "Head, shorts and legs retain original textures. Generated armless torso and complete sleeve-arm sprites overlap at shoulder. Single-bone arms; no elbow deformation.",
+    "head_layer": {
+      "file": "head_mouthless_v1.png",
+      "target_rect": [
+        214,
+        56.6,
+        702.24,
+        702.24
+      ],
+      "status": "mouthless-dynamic-test-calibrated"
+    },
+    "mouth_scale": 1.65,
+    "body_scale": 0.76,
+    "body_scale_anchor": [
+      578,
+      690
+    ],
+    "head_clip_bottom": 680,
+    "head_pivot": [
+      578,
+      680
+    ],
+    "neck_bridge": {
+      "top": [
+        508,
+        649,
+        664
+      ],
+      "bottom": [
+        526,
+        632,
+        694
+      ],
+      "color_top": "#f8ab7d",
+      "color_bottom": "#fecda3",
+      "outline": "#523025"
+    }
+  },
+  "voice_provider": "TTSMaker",
+  "voice_id": "1602",
+  "voice_note": "家豪1602｜台灣成人男聲",
+  "voice_user_choice_confirmed": true,
+  "motion_user_accepted": true,
+  "motion_accepted_from": "round05-user-feedback-2026-10-24",
+  "head_user_accepted": true,
+  "head_style": {
+    "catalog_id": "anime-chibi",
+    "variant": "azhong-matching-inked-adult-chibi",
+    "display_name": "描邊彩繪Q版，阿忠同畫風，保留成人特徵"
+  },
+  "body_template": "azhong-school-v1",
+  "topic": "國小校園反霸凌",
+  "proportions": {
+    "version": "large-head-small-body-v2",
+    "body_scale": 0.76,
+    "head_scale_from_v1": 1.0787096774193548,
+    "target": "接近兩頭身，連續短頸；原PNG與身體動作素材不變",
+    "user_requested": true
+  },
+  "head_identity_user_accepted": true,
+  "video_timing": {
+    "lead_in_sec": 0.3,
+    "tail_out_sec": 0.796
+  },
+  "presentation": {
+    "title": "尊重同學，勇敢求助",
+    "eyebrow": "校園反霸凌・每個人都值得被尊重",
+    "character_label": "一起讓校園更友善",
+    "lesson_label": "反霸凌小提醒",
+    "theme": "anti-bullying",
+    "scenes": [
+      {
+        "title": "不嘲笑・不排擠",
+        "detail": "友善相處，尊重每個人的不同",
+        "caption_prefix": "同學們"
+      },
+      {
+        "title": "不附和・找老師",
+        "detail": "不跟著起鬨，看見欺負請找老師幫忙",
+        "caption_prefix": "也不"
+      },
+      {
+        "title": "互相尊重・友善校園",
+        "detail": "一句關心，讓同學感到安心",
+        "caption_prefix": "互相尊重"
+      }
+    ]
+  },
+  "video_user_accepted": false,
+  "character_name_status": "provisional-user-alias",
+  "mouth_user_accepted": false
+}

@@ -1,0 +1,47 @@
+# 憑證與本機設定
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.credentials.json
+.aws/
+.codex/
+.agents/
+
+# 私人輸入、生成結果及中間檔
+private_inputs/
+素材照片/
+outputs/
+阿忠介紹校園安全/
+阿德推廣校園反霸凌/
+阿德推廣校園反霸凌（阿忠身體）/
+阿德推廣校園反霸凌（個人身體）/
+work/
+cache/
+samples/round01/
+samples/round02/
+samples/round03/
+samples/round04/
+samples/round[0-9][0-9]/
+models/
+tools/bin/
+*.egg-info/
+*.log
+
+# Python / Node / 作業系統
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+Desktop.ini

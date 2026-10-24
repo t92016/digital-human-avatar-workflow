@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/t92016/digital-human-avatar-workflow",
+  "pages": "https://t92016.github.io/digital-human-avatar-workflow/",
+  "authorized_on": "2026-10-24",
+  "groups": [
+    {
+      "id": "azhong",
+      "title": "阿忠｜校園安全",
+      "subtitle": "阿忠校服身體・萌萌1202配音",
+      "folder": "azhong-mmeng-1202",
+      "duration": 13.125,
+      "topic": "校園安全",
+      "body": "阿忠校服身體",
+      "voice": "萌萌1202（普通話童聲，未標台灣口音）",
+      "description": "走廊慢慢走、上下樓梯靠右行，還有主動幫助同學。",
+      "note": "這組保留已驗收的卡通人物、配音與早期2D嘴型。",
+      "poster": "examples/azhong-mmeng-1202/media/poster.png",
+      "page": "showcases/azhong/",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "videos": [
+        {
+          "mode": 1,
+          "path": "examples/azhong-mmeng-1202/media/mode1_hands.mp4",
+          "bytes": 1129110,
+          "sha256": "1618ab309f8efea56f9d2adfcd1479109b30f3158954da148e2445556dd35b06"
+        },
+        {
+          "mode": 2,
+          "path": "examples/azhong-mmeng-1202/media/mode2_natural.mp4",
+          "bytes": 1947264,
+          "sha256": "74076be65eda4d7761aa3738d68211a4db026ec25beba38c7bdeaff069cd1edd"
+        },
+        {
+          "mode": 3,
+          "path": "examples/azhong-mmeng-1202/media/mode3_lively.mp4",
+          "bytes": 2010436,
+          "sha256": "0f473dbfe9109908fbcf891b543dddbf55fb7961bb7f12912a77cd8f84f939d7"
+        }
+      ]
+    },
+    {
+      "id": "ade-school",
+      "title": "阿德｜反霸凌・阿忠身體",
+      "subtitle": "阿德大頭＋阿忠校服身體・家豪1602配音",
+      "folder": "ade-school-body",
+      "duration": 13,
+      "topic": "校園反霸凌",
+      "body": "阿忠校服身體",
+      "voice": "家豪1602（供應商標示Taiwan Male）",
+      "description": "同一個阿德頭像，接上阿忠的校服身體，宣導尊重同學與勇敢求助。",
+      "note": "保留原換頭版本與早期嘴型；本人身體版另呈現後續自然對嘴與眨眼。",
+      "poster": "examples/ade-school-body/media/poster.png",
+      "page": "showcases/ade-school/",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "videos": [
+        {
+          "mode": 1,
+          "path": "examples/ade-school-body/media/mode1_hands.mp4",
+          "bytes": 1092726,
+          "sha256": "33ae2df102cd1a415e932e85c7e1199cfc6432574229914ed1ecb32047775351"
+        },
+        {
+          "mode": 2,
+          "path": "examples/ade-school-body/media/mode2_natural.mp4",
+          "bytes": 2072516,
+          "sha256": "e6a745150cfb3df4dfc10e5197db01fed5e024fbce3464afa62b4f80378a9b09"
+        },
+        {
+          "mode": 3,
+          "path": "examples/ade-school-body/media/mode3_lively.mp4",
+          "bytes": 2154076,
+          "sha256": "9ffd56a3a9a7d13fd9b95d83628c25c1f1063c4192c7ca89e78f9ca96c5b75da"
+        }
+      ]
+    },
+    {
+      "id": "ade-personal",
+      "title": "阿德｜反霸凌・個人身體",
+      "subtitle": "阿德本人服裝與身形・家豪1602配音",
+      "folder": "ade-personal-body",
+      "duration": 13,
+      "topic": "校園反霸凌",
+      "body": "本人黑色POLO衫、長褲與鞋",
+      "voice": "家豪1602（供應商標示Taiwan Male）",
+      "description": "保留本人造型，整合自然對嘴、局部眨眼，以及較平緩的彎肘與原地屈膝。",
+      "note": "使用完整原音驅動SadTalker，整合穩定與局部眨眼。三模式已獲使用者接受。",
+      "poster": "examples/ade-personal-body/media/poster.png",
+      "page": "showcases/ade-personal/",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "videos": [
+        {
+          "mode": 1,
+          "path": "examples/ade-personal-body/media/mode1_hands.mp4",
+          "bytes": 1608303,
+          "sha256": "47871515c5b83e0c94a30b5967b1b2489e95aeab1d664a1653115f2223ae818a"
+        },
+        {
+          "mode": 2,
+          "path": "examples/ade-personal-body/media/mode2_natural.mp4",
+          "bytes": 2230901,
+          "sha256": "9e1bb3b3da0ab0cc4251a16369eeba6676ce73d88371cb74c7b5714ec920357b"
+        },
+        {
+          "mode": 3,
+          "path": "examples/ade-personal-body/media/mode3_lively.mp4",
+          "bytes": 2241391,
+          "sha256": "4ed1da25a2c356faef0a447da65dfaf858f3c444f024bff15e7f32a91e6f8f2c"
+        }
+      ]
+    }
+  ]
+}

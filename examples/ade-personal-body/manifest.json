@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "ade-personal",
+  "publication_authorized_on": "2026-10-24",
+  "authorization": "User explicitly requested a public GitHub repo and Pages showcasing these three completed groups, each with three motion modes.",
+  "scope": "Finished MP4s and their preview image only; no original photographs, editable character layers, model weights, credentials or private environment.",
+  "files": [
+    {
+      "path": "media/mode1_hands.mp4",
+      "bytes": 1608303,
+      "sha256": "47871515c5b83e0c94a30b5967b1b2489e95aeab1d664a1653115f2223ae818a"
+    },
+    {
+      "path": "media/mode2_natural.mp4",
+      "bytes": 2230901,
+      "sha256": "9e1bb3b3da0ab0cc4251a16369eeba6676ce73d88371cb74c7b5714ec920357b"
+    },
+    {
+      "path": "media/mode3_lively.mp4",
+      "bytes": 2241391,
+      "sha256": "4ed1da25a2c356faef0a447da65dfaf858f3c444f024bff15e7f32a91e6f8f2c"
+    },
+    {
+      "path": "media/poster.png",
+      "bytes": 806238,
+      "sha256": "095e7307f8dc3108bdbc1c25264b3ebe99083c172eda18b111004a529b78d043"
+    }
+  ]
+}

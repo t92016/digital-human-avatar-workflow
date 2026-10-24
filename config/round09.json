@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "character": "阿德",
+  "purpose": "專屬全身照角色素材與三模式4.4秒整合短測",
+  "source_photo": "private_inputs/round09/source/fullbody_original.jpg",
+  "style": "沿用已接受描邊彩繪Q版與成人辨識度；大頭小身",
+  "outfit": "本人黑色短袖POLO衫、深灰長褲、深色運動鞋",
+  "head_route": 2,
+  "head_route_reason": "同一人，重用已接受原嘴／穩定／局部眨眼4.4秒片，避免換頭像重新引入模型差異",
+  "head_source": "outputs/round08/head_local_blink.mp4",
+  "head_alpha": "outputs/round09/character/head_accepted_alpha.webm",
+  "head_still": "outputs/round05/character/head_closed_v1.png",
+  "audio_source": "outputs/round06/sadtalker-head-v2/jiahao-sample.wav",
+  "duration_sec": 4.4,
+  "fps": 25,
+  "canvas": {"width": 1920, "height": 1080, "role": "放大素材比較；不是教材角色配置的新定稿"},
+  "head_rect": [210, 17, 564.3, 564.3],
+  "head_pivot": [512, 555],
+  "torso_rect": [287.34, 500.85, 451.264, 431.904],
+  "pelvis": {"crop": [150, 600, 510, 891], "scale": 0.8, "source_pivot": [330, 600], "pivot": [512, 910]},
+  "arm_left": {"crop": [650, 0, 850, 500], "scale": 1.05, "source_pivot": [765, 80], "pivot": [370, 660]},
+  "arm_right": {"crop": [1090, 0, 1320, 500], "scale": 1.05, "source_pivot": [1200, 80], "pivot": [654, 660]},
+  "leg_left": {"crop": [625, 508, 885, 1020], "scale": 0.9, "source_pivot": [787, 553], "pivot": [442, 1050]},
+  "leg_right": {"crop": [1060, 508, 1330, 1020], "scale": 0.9, "source_pivot": [1173, 554], "pivot": [586, 1050]},
+  "motion_profile": {
+    "inherited_from": "round03/round05 accepted slow overlapping-shoulder profile",
+    "start_sec": 0.35, "rise_sec": 1.05, "hold_sec": 0.7, "lower_sec": 1.05,
+    "modes": {
+      "1": {"label": "① 只有手部", "left_arm_deg": -95, "other_arm_deg": 25, "head_deg": 0, "leg_deg": 0, "leg_lift": 0},
+      "2": {"label": "② 手腳與頭部・自然", "left_arm_deg": -110, "other_arm_deg": 40, "head_deg": 4, "leg_deg": 6, "leg_lift": 18},
+      "3": {"label": "③ 手腳與頭部・活潑", "left_arm_deg": -120, "other_arm_deg": 55, "head_deg": 8, "leg_deg": 12, "leg_lift": 40}
+    }
+  },
+  "user_delegated_head_route_choice": true,
+  "static_user_accepted": false,
+  "new_body_motion_user_accepted": false,
+  "limitations": "單段手臂／腿，尚無彎肘、屈膝或張掌；新造型、頭身接合與三模式整合均待使用者檢視"
+}

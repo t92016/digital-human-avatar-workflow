@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "provider": "TTSMaker",
+  "checked_date": "2026-10-23",
+  "source_url": "https://ttsmaker.com/zh-cn",
+  "access": "備援網站；免費需遵守字元額度，免註冊／免API金鑰，可能需驗證碼與排隊；新作品本機TTS優先但尚未接通。",
+  "selection_rule": "選用TTSMaker備援時列出全部名稱、分組、編號及口音，由使用者選；已確認音檔沿用，不因本機策略而重配。",
+  "age_note": "兒童類別依官網 Child 標示；成人為一般解說方向，官網沒有公開精確年齡。",
+  "voices": [
+    {
+      "id": "1202",
+      "name": "萌萌",
+      "official_name": "Mmeng 萌萌",
+      "group": "boy",
+      "accent": "未標台灣；一般中文候選",
+      "taiwan_explicit": false,
+      "official_label": "兒童男孩聲音 Child"
+    },
+    {
+      "id": "1401",
+      "name": "明明",
+      "official_name": "Xiaoming 明明",
+      "group": "boy",
+      "accent": "未標台灣；一般中文候選",
+      "taiwan_explicit": false,
+      "official_label": "童聲／男孩聲 Child"
+    },
+    {
+      "id": "1402",
+      "name": "小華",
+      "official_name": "Xiaohua 小华",
+      "group": "boy",
+      "accent": "未標台灣；一般中文候選",
+      "taiwan_explicit": false,
+      "official_label": "童聲／男孩聲 Child"
+    },
+    {
+      "id": "1203",
+      "name": "甜甜",
+      "official_name": "Ttian 甜甜",
+      "group": "girl",
+      "accent": "未標台灣；一般中文候選",
+      "taiwan_explicit": false,
+      "official_label": "兒童女孩聲音 Child"
+    },
+    {
+      "id": "1522",
+      "name": "糖豆",
+      "official_name": "Doudou 糖豆",
+      "group": "girl",
+      "accent": "未標台灣；一般中文候選",
+      "taiwan_explicit": false,
+      "official_label": "兒童女孩聲音 Child"
+    },
+    {
+      "id": "1523",
+      "name": "雪花",
+      "official_name": "Huahua 雪花",
+      "group": "girl",
+      "accent": "未標台灣；一般中文候選",
+      "taiwan_explicit": false,
+      "official_label": "兒童女孩聲音 Child"
+    },
+    {
+      "id": "1416",
+      "name": "莉莉",
+      "official_name": "Lili 莉莉",
+      "group": "girl",
+      "accent": "未標台灣；一般中文候選",
+      "taiwan_explicit": false,
+      "official_label": "女孩／童聲／女聲 Child"
+    },
+    {
+      "id": "1602",
+      "name": "家豪",
+      "official_name": "Jh 家豪",
+      "group": "man",
+      "accent": "官方明列台灣",
+      "taiwan_explicit": true,
+      "official_label": "繁體台灣通用男生 Taiwan Male"
+    },
+    {
+      "id": "349",
+      "name": "阿澤",
+      "official_name": "Az 阿泽",
+      "group": "man",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "推薦通用男聲"
+    },
+    {
+      "id": "999",
+      "name": "樊雨",
+      "official_name": "Fy 樊雨",
+      "group": "man",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "經典男聲"
+    },
+    {
+      "id": "345",
+      "name": "元芳",
+      "official_name": "Yf 元芳",
+      "group": "man",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "精品通用男聲"
+    },
+    {
+      "id": "1508",
+      "name": "阿飛",
+      "official_name": "Fei 阿飞",
+      "group": "man",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "通用／播音男聲"
+    },
+    {
+      "id": "1506",
+      "name": "啊樂",
+      "official_name": "Al 啊乐",
+      "group": "man",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "閱讀／短視頻／播音男聲"
+    },
+    {
+      "id": "1515",
+      "name": "小龍",
+      "official_name": "Long 小龙",
+      "group": "man",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "通用／小說／故事／新聞男聲"
+    },
+    {
+      "id": "1660",
+      "name": "柏宇",
+      "official_name": "By 柏宇",
+      "group": "man",
+      "accent": "多語種；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "多語種通用男聲 Male Voice"
+    },
+    {
+      "id": "889",
+      "name": "菡穎",
+      "official_name": "Hany 菡颖",
+      "group": "woman",
+      "accent": "官方明列台灣",
+      "taiwan_explicit": true,
+      "official_label": "繁體台灣女聲"
+    },
+    {
+      "id": "1601",
+      "name": "雅婷",
+      "official_name": "Yt 雅婷",
+      "group": "woman",
+      "accent": "官方明列台灣",
+      "taiwan_explicit": true,
+      "official_label": "繁體台灣通用女聲 Taiwan Female"
+    },
+    {
+      "id": "1606",
+      "name": "淑芬",
+      "official_name": "Sf 淑芬",
+      "group": "woman",
+      "accent": "官方明列台灣",
+      "taiwan_explicit": true,
+      "official_label": "台灣通用女聲 Taiwan Female"
+    },
+    {
+      "id": "1603",
+      "name": "麗娜",
+      "official_name": "Lina 丽娜",
+      "group": "woman",
+      "accent": "港台風格；不等同原生台灣口音",
+      "taiwan_explicit": false,
+      "official_label": "港台風格通用溫柔女聲"
+    },
+    {
+      "id": "1604",
+      "name": "婉君",
+      "official_name": "Wanjun 婉君",
+      "group": "woman",
+      "accent": "港台風格；不等同原生台灣口音",
+      "taiwan_explicit": false,
+      "official_label": "港台風格通用女聲"
+    },
+    {
+      "id": "204",
+      "name": "瀟瀟",
+      "official_name": "Xiao 潇潇",
+      "group": "woman",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "通用女聲"
+    },
+    {
+      "id": "1406",
+      "name": "安妮",
+      "official_name": "Anni 安妮",
+      "group": "woman",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "通用／助手女聲 Female"
+    },
+    {
+      "id": "346",
+      "name": "夢夢",
+      "official_name": "M 梦梦",
+      "group": "woman",
+      "accent": "一般中文；未標台灣",
+      "taiwan_explicit": false,
+      "official_label": "精品通用女聲"
+    }
+  ],
+  "workflow_role": "fallback-for-new-work",
+  "limits_checked_date": "2026-10-24"
+}

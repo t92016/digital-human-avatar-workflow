@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "azhong-mmeng-1202-v1",
+  "source_round": "round04",
+  "frozen_on": "2026-10-23",
+  "publication_status": "prepared-locally-not-published",
+  "acceptance": {
+    "date": "2026-10-23",
+    "evidence": "使用者表示：基本上不管是聲音還是動作，我覺得都可以。並要求保留為未來repo示範。",
+    "voice_user_accepted": true,
+    "motion_user_accepted": true,
+    "scope": "阿忠、此份台詞及萌萌1202配音的既有三種動作成品；不推及其他人物、台詞、聲線或電腦。"
+  },
+  "script": "大家好！我是阿忠，今天要提醒大家：走廊慢慢走，上下樓梯靠右行。看見同學有困難，記得主動幫忙。一起讓校園更安全、更友善！",
+  "voice": {
+    "provider": "TTSMaker free website",
+    "name": "萌萌",
+    "id": "1202",
+    "source_url": "https://ttsmaker.com/zh-cn",
+    "locale": "zh-unspecified",
+    "taiwan_accent_claimed": false,
+    "speed": 1,
+    "pitch": "normal",
+    "volume": 100,
+    "bgm": false,
+    "audio_duration_seconds": 13.0839375
+  },
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "duration_seconds": 13.125,
+    "frame_count": 315,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "modes": [
+      1,
+      2,
+      3
+    ],
+    "anchor": "bottom-left",
+    "visible_height_ratio": 0.45
+  },
+  "provenance": {
+    "art": "使用者提供卡通參考，內建生圖補繪分層，SVG/GSAP動作。",
+    "image_model_exact_version": "not-exposed-by-tool",
+    "hyperframes": "0.8.188",
+    "gsap": "3.14.2",
+    "rhubarb": "1.14.0",
+    "ffmpeg": "9.0.2",
+    "raw_photos_included": false,
+    "editable_body_atlas_included": false,
+    "future_personal_inputs_publication_authorized": false
+  },
+  "rebuild": {
+    "private_asset_pack_required": true,
+    "pack": "round04_asset_pack.zip",
+    "instructions": "../../docs/硬體自適應與跨電腦工作流.md",
+    "new_head_end_to_end_verified": false,
+    "other_machine_generation_verified": false
+  },
+  "files": [
+    {
+      "path": "baseline-config.json",
+      "size_bytes": 2647,
+      "sha256": "5b45634a7c0412af9f05f1817c9515e7e051c878a9969ed703cba6ab56f5511c",
+      "origin": "config/round04.json",
+      "copied_without_transcoding": true
+    },
+    {
+      "path": "captions.srt",
+      "size_bytes": 517,
+      "sha256": "ea738d21609158ec1102a46f31d27363dd47e8306b77f69da8de86c1844ff5dc",
+      "origin": "outputs/round04/audio/captions.srt",
+      "copied_without_transcoding": true
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 4741,
+      "sha256": "05cc041d08d93dc87ad96b34c6ddc5c654bbfd522ab3ad7d672c459b65ed52f6"
+    },
+    {
+      "path": "media/mode1_hands.mp4",
+      "size_bytes": 1129110,
+      "sha256": "1618ab309f8efea56f9d2adfcd1479109b30f3158954da148e2445556dd35b06",
+      "origin": "outputs/round04/mode1_hands.mp4",
+      "copied_without_transcoding": true
+    },
+    {
+      "path": "media/mode2_natural.mp4",
+      "size_bytes": 1947264,
+      "sha256": "74076be65eda4d7761aa3738d68211a4db026ec25beba38c7bdeaff069cd1edd",
+      "origin": "outputs/round04/mode2_natural.mp4",
+      "copied_without_transcoding": true
+    },
+    {
+      "path": "media/mode3_lively.mp4",
+      "size_bytes": 2010436,
+      "sha256": "0f473dbfe9109908fbcf891b543dddbf55fb7961bb7f12912a77cd8f84f939d7",
+      "origin": "outputs/round04/mode3_lively.mp4",
+      "copied_without_transcoding": true
+    },
+    {
+      "path": "media/poster.png",
+      "size_bytes": 469779,
+      "sha256": "89faf746c15aa4cbcd866bdad56e4c54f4075a4e789d19cb7b7b12036f5f929f",
+      "origin": "outputs/round04/qa/mode3_at_5.31.png",
+      "copied_without_transcoding": true
+    },
+    {
+      "path": "media/voice.wav",
+      "size_bytes": 418730,
+      "sha256": "e7d4d4ff2f29208f64fe5b17e2c6def8384222b810645cce3786c562391f5f93",
+      "origin": "outputs/round04/audio/voice.wav",
+      "copied_without_transcoding": true
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2585,
+      "sha256": "73c4fcc8cec2f9522fbbc2d46b71b9ac5e9cd344c5362f9b14bed93c8ec8e56f"
+    },
+    {
+      "path": "voices.html",
+      "size_bytes": 4854,
+      "sha256": "036cb67ae03f0abade34317adb3006e3862614aaa6eb2a57a5068d2dec5ab536",
+      "origin": "outputs/round04/聲音選單.html",
+      "copied_without_transcoding": true
+    }
+  ]
+}

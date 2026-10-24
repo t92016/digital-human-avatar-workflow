@@ -1,0 +1,93 @@
+{
+  "round": "round11",
+  "teaching_config": "config/round05.json",
+  "body_config": "config/round09.json",
+  "articulation_config": "config/round10.json",
+  "purpose": "完整13秒本人服裝反霸凌三模式，依紅圈回饋減少彎肘",
+  "duration_sec": 13,
+  "fps": 24,
+  "head_alpha": "outputs/round11/character/head_full_alpha.webm",
+  "head_scale": 1.03,
+  "head_pin": [
+    512,
+    540
+  ],
+  "visible_height_px": 486,
+  "character_region": [
+    62,
+    493,
+    535,
+    550
+  ],
+  "actor_scale": 0.339,
+  "actor_left": 62,
+  "actor_top": 531.399,
+  "head_full_source": "outputs/round11/full-head-v1/head_full.mp4",
+  "head_stabilized": "outputs/round11/full-head-v1/head_stabilized.mp4",
+  "blink_source_start_frames": [
+    43,
+    167,
+    258
+  ],
+  "timing": {
+    "first_raise_sec": 0.35,
+    "interval_sec": 3.8,
+    "rise": 1.05,
+    "hold": 0.7,
+    "lower": 1.25,
+    "other_delay": 0.18,
+    "elbow_delay": 0.1,
+    "knee_delay": 0.14
+  },
+  "modes": {
+    "1": {
+      "label": "① 只有手部",
+      "right_upper_deg": -66,
+      "right_elbow_deg": -21,
+      "left_upper_deg": 19,
+      "left_elbow_deg": 12,
+      "left_hip_deg": 0,
+      "left_knee_deg": 0,
+      "right_hip_deg": 0,
+      "right_knee_deg": 0,
+      "head_deg": 0
+    },
+    "2": {
+      "label": "② 自然版",
+      "right_upper_deg": -70,
+      "right_elbow_deg": -24,
+      "left_upper_deg": 23,
+      "left_elbow_deg": 14,
+      "left_hip_deg": 11,
+      "left_knee_deg": -27,
+      "right_hip_deg": -3,
+      "right_knee_deg": 8,
+      "head_deg": 1.6
+    },
+    "3": {
+      "label": "③ 活潑版",
+      "right_upper_deg": -75,
+      "right_elbow_deg": -29,
+      "left_upper_deg": 28,
+      "left_elbow_deg": 17,
+      "left_hip_deg": 16,
+      "left_knee_deg": -38,
+      "right_hip_deg": -5,
+      "right_knee_deg": 12,
+      "head_deg": 2.6
+    }
+  },
+  "legacy_folder": "阿德推廣校園反霸凌",
+  "legacy_renamed_folder": "阿德推廣校園反霸凌（阿忠身體）",
+  "delivery_folder": "阿德推廣校園反霸凌（個人身體）",
+  "filenames": [
+    "01_只有手部.mp4",
+    "02_手腳與頭部_自然版.mp4",
+    "03_手腳與頭部_活潑版.mp4"
+  ],
+  "voice_and_script_reused": true,
+  "user_accepted": true,
+  "acceptance_date_local": "2026-10-24",
+  "accepted_user_quote": "我已經看過影片，基本上都可以接受。",
+  "acceptance_scope": "阿德本人黑POLO／長褲身體的13秒1080p三模式、減小彎肘、整合完整家豪對嘴／穩定／局部眨眼與原教材。僅此角色、原音及三支影片，不擴及新人物、新本機聲音、多視角或長片。"
+}

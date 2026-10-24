@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "ade-school",
+  "publication_authorized_on": "2026-10-24",
+  "authorization": "User explicitly requested a public GitHub repo and Pages showcasing these three completed groups, each with three motion modes.",
+  "scope": "Finished MP4s and their preview image only; no original photographs, editable character layers, model weights, credentials or private environment.",
+  "files": [
+    {
+      "path": "media/mode1_hands.mp4",
+      "bytes": 1092726,
+      "sha256": "33ae2df102cd1a415e932e85c7e1199cfc6432574229914ed1ecb32047775351"
+    },
+    {
+      "path": "media/mode2_natural.mp4",
+      "bytes": 2072516,
+      "sha256": "e6a745150cfb3df4dfc10e5197db01fed5e024fbce3464afa62b4f80378a9b09"
+    },
+    {
+      "path": "media/mode3_lively.mp4",
+      "bytes": 2154076,
+      "sha256": "9ffd56a3a9a7d13fd9b95d83628c25c1f1063c4192c7ca89e78f9ca96c5b75da"
+    },
+    {
+      "path": "media/poster.png",
+      "bytes": 498314,
+      "sha256": "60d0b511a1d6453912fde0984b3f36dfeef87df23cab527c6dc90c91fba38c2d"
+    }
+  ]
+}

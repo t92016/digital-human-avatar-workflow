@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "head_styles": [
+    {"id":"semi-real-chibi","name":"半寫實 Q 版"},
+    {"id":"cute-3d","name":"3D 可愛公仔風"},
+    {"id":"clay","name":"黏土風"},
+    {"id":"anime-chibi","name":"日系動漫 Q 版"},
+    {"id":"western-cartoon","name":"美式卡通 Q 版"},
+    {"id":"flat-cartoon","name":"扁平向量 Q 版"},
+    {"id":"plush","name":"絨毛玩偶風"},
+    {"id":"watercolor","name":"水彩童書風"}
+  ],
+  "body_choices": [
+    {"id":"preserve-input-body","name":"保留輸入人物的身體與服裝","generation":"全身照轉本人Q版；現成全身卡通保留原身體，另校準可動部位"},
+    {"id":"head-only","name":"只有頭像","generation":"只製作頭像"},
+    {"id":"azhong-school-v1","name":"阿忠校服身體範本","generation":"只製作新頭像，沿用已驗收身體、制服與動作"},
+    {"id":"custom-body","name":"補繪或另行指定身體","generation":"半身／大頭缺全身參考時先確認服裝、鞋及姿勢；指定其他卡通身體時依其畫風接新頭像"}
+  ],
+  "default_recommendation":"preserve-input-body",
+  "policy_date":"2026-10-24",
+  "selection_rule":"全身照預設保留本人身體與服裝，現成全身卡通保留原身體；半身／大頭先找已指定同人的全身參考，缺少時確認補繪，不默認阿忠制服。只有使用者指定才套其他卡通身體並匹配頭像畫風。既有構圖、風格、模式、位置及大小確認可沿用。",
+  "intake_policy_status":"menu-and-document-rules; generic new-project runner not implemented",
+  "templates": [
+    {
+      "id":"azhong-school-v1",
+      "name":"阿忠校服身體範本",
+      "status":"round03-motion-user-accepted",
+      "clothing":"藍黃運動制服、短褲、白襪、藍鞋",
+      "body_style":"原阿忠描邊彩繪卡通風，套用時不因頭像風格改變而自行重畫身體",
+      "source_round":"round03",
+      "private_asset_pack":"round03_asset_pack.zip",
+      "required_assets":["character/boy_mouthless_v1.png","character/arm_torso_atlas_v1.png"],
+      "source_canvas":[1122,1402],
+      "rig_version":"overlapping-shoulder-v1",
+      "motion_modes":[1,2,3],
+      "head_slot":{"target_rect":[190,45,709,615],"neck_join":[578,655],"requires_transparent_mouthless_head":true,"legacy_svg_mouth_profile_only":true,"requires_manual_calibration":true},
+      "mouth_slot":{"default_center":[578,557],"requires_new_head_calibration":true},
+      "supports":"沿用已驗收肩部重疊、完整袖子轉動與原地手腳／頭部三種動作",
+      "limits":"不能把任意頭像直接裁貼即宣稱完成；需檢查透明、頭身比例、頸部／膚色及動作邊界。此mouthless欄位只描述歷史SVG範本；新人物主要沿用原嘴SadTalker短測。阿德已驗收不代表所有新人物相容。"
+    }
+  ]
+}

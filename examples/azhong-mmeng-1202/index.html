@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>阿忠 × 萌萌 1202｜已驗收示範</title>
+  <style>
+    *{box-sizing:border-box}body{font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;max-width:1200px;margin:32px auto;padding:0 24px 40px;line-height:1.8;color:#234846;background:#f5f6ed}h1{font-size:clamp(24px,4vw,34px);margin:8px 0}h2{font-size:22px;margin-top:30px}.badge{display:inline-block;background:#dcebdc;border-radius:20px;padding:3px 14px;font-weight:bold}video{width:100%;aspect-ratio:16/9;border-radius:16px;background:#fff}nav{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}button{font:inherit;background:white;border:1px solid #799886;border-radius:24px;color:#234846;padding:10px 18px;cursor:pointer}button[aria-pressed=true]{background:#234846;color:white}button:focus-visible,a:focus-visible{outline:3px solid #c97722;outline-offset:4px}aside{background:#fff0cf;border-radius:12px;padding:14px 20px}a{color:#27694f}audio{width:100%}blockquote{background:white;border-radius:12px;padding:18px 24px;margin:16px 0}.downloads{display:flex;gap:18px;flex-wrap:wrap}footer{font-size:14px;margin-top:32px;border-top:1px solid #c8d5c7;padding-top:16px}#current{min-height:2em}
+  </style>
+</head>
+<body>
+  <span class="badge">聲音與動作已獲使用者接受 · 2026-10-23</span>
+  <h1>阿忠 × 萌萌 1202</h1>
+  <p>全身 Q 版角色、三種原地動作、台詞對嘴、繁體字幕與校園教學背景。這是本專案保留的固定示範。</p>
+  <nav aria-label="動作模式">
+    <button data-file="media/mode1_hands.mp4" aria-pressed="false">① 只有手部</button>
+    <button data-file="media/mode2_natural.mp4" aria-pressed="true">② 手腳與頭部</button>
+    <button data-file="media/mode3_lively.mp4" aria-pressed="false">③ 活潑式</button>
+  </nav>
+  <video id="player" src="media/mode2_natural.mp4" poster="media/poster.png" controls playsinline preload="metadata">
+    瀏覽器無法播放時，請使用下方影片連結。
+  </video>
+  <p id="current" role="status">目前：② 手腳與頭部。三種模式使用同一份萌萌 1202 配音。</p>
+  <div class="downloads" aria-label="影片檔案">
+    <a href="media/mode1_hands.mp4">開啟手部版 MP4</a>
+    <a href="media/mode2_natural.mp4">開啟自然版 MP4</a>
+    <a href="media/mode3_lively.mp4">開啟活潑版 MP4</a>
+  </div>
+  <h2>只聽聲音與查看台詞</h2>
+  <audio controls preload="metadata" src="media/voice.wav" aria-label="萌萌 1202 配音"></audio>
+  <blockquote>大家好！我是阿忠，今天要提醒大家：走廊慢慢走，上下樓梯靠右行。看見同學有困難，記得主動幫忙。一起讓校園更安全、更友善！</blockquote>
+  <p><a href="captions.srt">繁體字幕 SRT</a> · <a href="voices.html">23 款中文聲音選單</a></p>
+  <aside>聲線為 TTSMaker「萌萌 1202」，官網未標台灣口音或精確年齡。配音語速 1.0×、原音高、無背景音樂。影片為 1920 × 1080、24 fps、13.125 秒；角色固定左下角，靜止可見高度約 45%。</aside>
+  <h2>換成自己的角色</h2>
+  <p>先提供正面大頭照，選擇頭像風格，再確認套用阿忠校服身體。製作時先檢查頭身接合與嘴型位置；只有指定客製身體時，才另外製作手腳素材。照片與新作品預設保留在私人資料夾。</p>
+  <p>這個頁面可直接觀看已完成影片，不需要安裝生成模型。重新製片需要專案環境與另行提供的身體素材包；圖片生成與免費網站取音仍有互動步驟。</p>
+  <footer>版本：azhong-mmeng-1202-v1。成品沿用第四輪原檔，後續改版另存版本。<a href="README.md">使用與重建說明</a> · <a href="manifest.json">版本、驗收範圍與檔案雜湊</a></footer>
+  <script>
+    const player=document.getElementById('player');
+    const buttons=[...document.querySelectorAll('nav button')];
+    let selection=0;
+    for(const button of buttons)button.addEventListener('click',()=>{
+      const token=++selection,time=Number.isFinite(player.currentTime)?player.currentTime:0;
+      player.pause();
+      player.addEventListener('loadedmetadata',()=>{
+        if(token===selection)player.currentTime=Math.min(time,Math.max(0,player.duration-.1));
+      },{once:true});
+      player.src=button.dataset.file;player.load();
+      for(const other of buttons)other.setAttribute('aria-pressed',String(other===button));
+      document.getElementById('current').textContent='目前：'+button.textContent+'。三種模式使用同一份萌萌 1202 配音。';
+    });
+  </script>
+</body>
+</html>
